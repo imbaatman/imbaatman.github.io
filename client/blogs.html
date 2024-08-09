@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sanjith's Blogs</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="blogs.html">Blogs</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="blogs">
+        <h1>My Blogs</h1>
+        <select id="blog-category-selector">
+          <option value="tech">Tech</option>
+          <option value="movies">Movies</option>
+        </select>
+        <div class="blog-category" id="tech-blogs" style="display: block">
+          <h2>Tech</h2>
+        </div>
+        <div class="blog-category" id="movie-blogs" style="display: none">
+          <h2>Movies</h2>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="social-links">
+        <a
+          href="https://linkedin.com/in/your-profile"
+          target="_blank"
+          aria-label="LinkedIn"
+        >
+          <img src="linkedin-icon.png" alt="LinkedIn" />
+        </a>
+        <a
+          href="https://twitter.com/your-profile"
+          target="_blank"
+          aria-label="Twitter"
+        >
+          <img src="twitter-icon.png" alt="Twitter" />
+        </a>
+        <a
+          href="https://github.com/your-profile"
+          target="_blank"
+          aria-label="GitHub"
+        >
+          <img src="github-icon.png" alt="GitHub" />
+        </a>
+      </div>
+      <p>&copy; 2024 Sanjith. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
